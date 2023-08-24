@@ -8,4 +8,4 @@ Exercícios Html Entra21
 
 ## Exe02
 
-![Exe02](/ExerciciosHTML/img/Exe02.jpeg)
+![Exe02](img/Exe02.jpeg)
