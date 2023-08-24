@@ -9,3 +9,7 @@ Exercícios Html Entra21
 ## Exe02
 
 ![Exe02](img/Exe02.jpeg)
+
+## Exe03
+
+![Exe03](img/Exe03.jpeg)
