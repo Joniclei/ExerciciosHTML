@@ -1,0 +1,104 @@
+/*reset css browser*/
+body,
+h1,
+p {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+/* Color conforme https://www.apartamento203.com.br/2020/05/16/cores-bem-estar/ e https://color.adobe.com/pt/create/color-wheel */
+
+
+:root {
+  --colorBody : #ebbdff;
+  --colorNav: #0058ef95;
+  --colorMain: #eaddff;
+  --colorFooter: #C4CBFF;
+  --colorHover :#246af7;
+}
+
+
+
+/* Navbar*/
+body{
+  background-color: var(--colorBody);
+}
+main {
+  background-color: var(--colorBody);
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.idNavFr {
+  background-color: var(--colorNav);
+  height: 5rem;
+  display: flex;
+}
+
+.logoNav img {
+
+  height: 100%;
+  margin-left: 10rem;
+
+}
+.menuCont{
+  width: 100%;
+  flex-direction: column;
+  margin-right: 10rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 1rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.menuUl{
+  padding: 0px;
+  display: flex;
+  margin: 2px;
+  list-style-type: none;
+}
+
+.menuUl :hover {
+  color: var(--colorHover);
+  height: 50%;
+  width: 100%;
+}
+
+.menuLi{
+  padding: 40px;
+}
+
+.vazio {
+  display: flex;
+  height: 90px;
+  width: 100%;
+  background-color: var(--colorBody);
+}
+
+.pSection {
+  width: 90%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.SectionOneP{
+  width: 100%;
+
+
+}
+
+.parSectionP{
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  outline: 0;
+
+}
+
+.pSectionS{
+
+  outline:black;
+}
